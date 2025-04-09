@@ -15,3 +15,4 @@ Make sure to align your layout, spacing, and components based on this reference 
 ▶️ Run the Application
 
 ionic serve --project milk-man
+
