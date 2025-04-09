@@ -1,0 +1,3 @@
+ng new my-ionic-app --standalone --routing
+cd my-ionic-app
+ng add @ionic/angular
