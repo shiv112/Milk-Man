@@ -5,4 +5,4 @@ npm install font-awesome --save
 npm install ngx-bootstrap bootstrap --save
 -----------
 
-command for creating component --> ionic g c componentname --project milk-man
+Command for creating component --> ionic g c componentname --project milk-man
