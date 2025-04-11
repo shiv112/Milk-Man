@@ -7,8 +7,8 @@ export const routes: Routes = [
     //     redirectTo: 'login', // 👈 Your desired default route
     //     pathMatch: 'full'
     //   },
-    //   {
-    //     path: 'login',
-    //     component: LoginComponent
-    //   },
+      {
+        path: '',
+        component: LoginComponent
+      },
 ];
