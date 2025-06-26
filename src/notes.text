@@ -1,8 +1,0 @@
-ng new my-ionic-app --standalone --routing
-cd my-ionic-app
-ng add @ionic/angular
-npm install font-awesome --save
-npm install ngx-bootstrap bootstrap --save
------------
-
-Command for creating component --> ionic g c componentname --project milk-man

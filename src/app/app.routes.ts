@@ -1,14 +1,21 @@
 import { Routes } from '@angular/router';
-import { LoginComponent } from './pages/login/login.component';
 
 export const routes: Routes = [
-    // {
-    //     path: '',
-    //     redirectTo: 'login', // 👈 Your desired default route
-    //     pathMatch: 'full'
-    //   },
-      {
-        path: '',
-        component: LoginComponent
-      },
+  {
+    path: 'home',
+    loadComponent: () => import('./home/home.page').then((m) => m.HomePage),
+  },
+  {
+    path: '',
+    redirectTo: 'home',
+    pathMatch: 'full',
+  },
+  {
+    path: 'milk-man-list',
+    loadComponent: () => import('./pages/milk-man-list/milk-man-list.page').then( m => m.MilkManListPage)
+  },
+  {
+    path: 'milk-man-details',
+    loadComponent: () => import('./pages/milk-man-details/milk-man-details.page').then( m => m.MilkManDetailsPage)
+  },
 ];
