@@ -7,7 +7,7 @@ import { personCircleOutline } from 'ionicons/icons';
   selector: 'app-home',
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
-  imports: [IonIcon, IonHeader, IonToolbar, IonTitle, IonContent],
+  imports: [IonIcon, IonHeader, IonToolbar, ],
 })
 export class HomePage {
   constructor() {
