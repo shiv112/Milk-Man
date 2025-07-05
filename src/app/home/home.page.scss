@@ -31,12 +31,27 @@
 }
 
 ion-content {
-   --background: linear-gradient(to left, #72f2fd , #ddb1ff); /* ✅ Gradient background */
+   --background: linear-gradient(to left, #a6f2f9 , #dfbbfb); /* ✅ Gradient background */
   }
 
   .main-card {
       background: transparent;
       border: 2px solid white;
-      border-radius: 50px;
+      border-radius: 30px;
       padding: 10px;
+    }
+.card-main-2 {
+  border-radius: 50px;
+}
+    .card-heading-1{
+      font-size: 34px;
+    }
+    .card-heading-2{
+      font-size: 18px;
+    }
+
+    .addCircleOutline{
+      font-size: 50px;
+      color: rgb(22, 39, 57);
+      // background-color: #2cff10;
     }
