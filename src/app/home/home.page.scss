@@ -1,57 +1,45 @@
-#container {
-  text-align: center;
-
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-#container strong {
-  font-size: 20px;
-  line-height: 26px;
-}
-
-#container p {
-  font-size: 16px;
-  line-height: 22px;
-
-  color: #8c8c8c;
-
-  margin: 0;
-}
-
-#container a {
-  text-decoration: none;
-}
-
-.big-icon {
-  font-size: 48px; /* You can use rem, em, %, etc. */
-}
 
 ion-content {
-   --background: linear-gradient(to left, #a6f2f9 , #dfbbfb); /* ✅ Gradient background */
-  }
-
-  .main-card {
-      background: transparent;
-      border: 2px solid white;
-      border-radius: 30px;
-      padding: 10px;
-    }
-.card-main-2 {
-  border-radius: 50px;
+  --background: linear-gradient(to left, #a6f2f9, #dfbbfb);
+  /* ✅ Gradient background */
 }
-    .card-heading-1{
-      font-size: 34px;
-    }
-    .card-heading-2{
-      font-size: 18px;
-    }
 
-    .addCircleOutline{
-      font-size: 50px;
-      color: rgb(22, 39, 57);
-      // background-color: #2cff10;
-    }
+
+/* Avatar Icon */
+.big-icon {
+  font-size: 40px;
+  color: #3b3b3b;
+}
+
+/* Add Circle Icon */
+.addCircleOutline {
+  font-size: 30px;
+  color: var(--ion-color-primary);
+}
+
+/* Main Card Responsive Width */
+.main-card {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  --background:none;
+}
+
+/* Calendar Styling */
+.small-calendar {
+  --min-height: 180px;
+  --max-height: 220px;
+  --width: 100%;
+  font-size: 14px;
+}
+
+/* Calendar Container */
+.cal-card {
+   --background:none;
+}
+.cal-container {
+  flex: 1 1 45%;
+   --background: linear-gradient(to left, #a6f2f9, #dfbbfb);
+  border-radius: 10px;
+  
+}
