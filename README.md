@@ -16,4 +16,4 @@ Make sure to align your layout, spacing, and components based on this reference 
 
 ionic serve --project milk-man
 
-Live URL - https://milk-man.onrender.com/
+Live URL - https://milk-man-git-main-gkusumbe7s-projects.vercel.app

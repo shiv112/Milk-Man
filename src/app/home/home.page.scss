@@ -13,7 +13,7 @@ ion-content {
 
 /* Add Circle Icon */
 .addCircleOutline {
-  font-size: 30px;
+  font-size: 44px;
   color: var(--ion-color-primary);
 }
 
@@ -40,6 +40,20 @@ ion-content {
 .cal-container {
   flex: 1 1 45%;
    --background: linear-gradient(to left, #a6f2f9, #dfbbfb);
-  border-radius: 10px;
+    border-radius: 10px;
   
+}
+.card1 {
+     --background: linear-gradient(to right, #c7eef2, #b8ece2);
+
+}
+
+.card2 {
+      --background: linear-gradient(to right, #c7eef2, #b8ece2);
+
+}
+
+.calendarcard {
+  --background: linear-gradient(135deg, #f1feff, #dbfaff, #ffffff);
+
 }

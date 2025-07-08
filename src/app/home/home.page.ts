@@ -7,7 +7,7 @@ import { addCircleOutline, homeOutline, locateOutline, location, locationOutline
   selector: 'app-home',
   templateUrl: 'home.page.html',
   styleUrls: ['home.page.scss'],
-  imports: [IonTabButton,  IonDatetime,  IonCardContent, IonCard, IonIcon, IonHeader, IonToolbar,IonContent ],
+  imports: [  IonDatetime, IonTitle, IonCardContent, IonCard, IonIcon, IonHeader, IonToolbar,IonContent ],
 })
 export class HomePage {
   constructor() {

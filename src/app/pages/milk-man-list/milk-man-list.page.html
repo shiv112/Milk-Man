@@ -5,9 +5,26 @@
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">milkManList</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  <ion-title>Milk Mans</ion-title>
+  <ion-list class="border-black bg-transparent" *ngFor="let manData of milkProviders">
+
+    <ion-card class="rounded-5 border border-2 border-white">
+      <ion-item class="">
+      <ion-avatar class="milkmanImg" slot="start">
+        <img [src]= "manData.imageUrl" />
+      </ion-avatar>
+      <ion-label class="">
+          <p class="">{{manData.name}} </p>
+          <p>{{manData.shift}}</p>
+          <p>{{manData.time}}</p>
+          <p></p>
+      </ion-label>
+      <ion-label class="text-end p-1">
+          <h2>{{manData.rate}}</h2>
+          <button class="btn border mt-1 btn-sm p-1 rounded-3 fw-bold">{{manData.callToAction}}</button>
+      </ion-label>
+    </ion-item>
+    </ion-card>
+  </ion-list>
+
 </ion-content>
